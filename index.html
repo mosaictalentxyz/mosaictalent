@@ -2,41 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mosaic Talent</title>
-  <meta name="description" content="Mosaic Talent — a boutique music booking agency">
-  <meta property="og:title" content="Mosaic Talent" />
-  <meta property="og:description" content="Boutique music booking." />
-  <meta property="og:type" content="website" />
   <style>
-    :root { --bg:#ffffff; --fg:#111; --muted:#545; }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg);display:grid;place-items:center;padding:40px 20px}
-    .card{width:min(920px,95vw);border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,.06);border:1px solid #eee;padding:clamp(20px,4vw,40px)}
-    .row{display:grid;grid-template-columns:160px 1fr;gap:28px;align-items:center}{width:100%;height:auto;display:block}
-    h1{margin:0 0 6px;font-size:clamp(28px,5vw,40px)}
-    p.lead{margin:0 0 18px;color:#666;font-size:clamp(16px,2.4vw,18px)}
-    .links{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
-    .btn{padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600;border:1px solid #e7e7e7;background:#fff;color:#111}
-    .btn.primary{background:#111;color:#fff;border-color:#111}
-    footer{margin-top:18px;color:#888;font-size:13px}
-    @media(max-width:700px){.row{grid-template-columns:1fr;gap:18px}.logo{max-width:220px}}
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    img {
+      max-width: 200px; /* Adjust logo size */
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin: 10px 0;
+    }
+    .email {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .email a {
+      color: white;
+      text-decoration: none;
+    }
+    .email a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <main class="card">
-    <div class="row">
-      <div>
-        <h1>Mosaic Talent</h1>
-        <div class="links">
-          <a class="btn primary" href="mailto:jess@mosaictalent.xyz">Contact</a>
-          <a class="btn" href="https://instagram.com/mosaictalent.xyz" target="_blank" rel="noopener">Instagram</a>
-        </div>
-        <footer>© <span id="y"></span> Mosaic Talent</footer>
-      </div>
+  <div class="container">
+    <img src="logo.png" alt="Mosaic Talent Logo">
+    <div class="email">
+      <a href="mailto:jess@mosaictalent.xyz">jess@mosaictalent.xyz</a>
     </div>
-  </main>
-  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+    <h1>Mosaic Talent</h1>
+  </div>
 </body>
 </html>
