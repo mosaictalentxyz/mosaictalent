@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640" height="264" viewBox="0 0 640 264" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .t { font: 700 78px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; fill:#111; }
+      .sub { font: 400 26px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; fill:#444; letter-spacing:1px;}
+      .tile { stroke:#111; stroke-width:10; }
+    </style>
+  </defs>
+  <g transform="translate(10,10) scale(1)">
+    <rect class="tile" x="0"   y="0"   width="60" height="60" fill="#f25f5c"/>
+    <rect class="tile" x="70"  y="0"   width="60" height="60" fill="#f2c14e"/>
+    <rect class="tile" x="140" y="0"   width="60" height="60" fill="#e56b6f"/>
+    <rect class="tile" x="210" y="0"   width="60" height="60" fill="#d95d89"/>
+
+    <rect class="tile" x="0"   y="70"  width="60" height="60" fill="#2a9d8f"/>
+    <rect class="tile" x="70"  y="70"  width="60" height="60" fill="#00b4d8"/>
+    <rect class="tile" x="140" y="70"  width="60" height="60" fill="#f28f3b"/>
+    <rect class="tile" x="210" y="70"  width="60" height="60" fill="#ef476f"/>
+
+    <rect class="tile" x="0"   y="140" width="60" height="60" fill="#f77f00"/>
+    <rect class="tile" x="70"  y="140" width="60" height="60" fill="#118ab2"/>
+    <rect class="tile" x="140" y="140" width="60" height="60" fill="#06d6a0"/>
+    <rect class="tile" x="210" y="140" width="60" height="60" fill="#26547c"/>
+  </g>
+  <text class="t" x="310" y="110">MOSAIC</text>
+  <text class="t" x="310" y="200">TALENT</text>
+  <text class="sub" x="310" y="238">Boutique music booking</text>
+</svg>
